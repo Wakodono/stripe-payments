@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noImplicitAny": false,
+      "outDir": "server/lib",
+      "sourceMap": true,
+      "strict": true,
+      "target": "es2017",
+      "lib": [
+          "ESNext",
+          "dom",
+        ],
+      "strictNullChecks": false,
+      "esModuleInterop": true
+    },
+    "compileOnSave": true,
+    "include": [
+      "src"
+    ]
+  }
